@@ -1,0 +1,64 @@
+\documentclass{beamer}
+\usepackage{polyglossia}
+\usepackage{pgfpages}
+\usepackage{mdframed}
+\usetheme{metropolis}
+
+\setdefaultlanguage{english}
+
+\title{Theme}
+\date{\today}
+\author{Žiga Leber}
+\institute{Programming mehtodology laboratory}
+\titlegraphic{\includegraphics[width=2cm]{images/logo.pdf}\includegraphics[width=2cm]{images/logo-lpm.pdf}}
+
+\definecolor{university}{HTML}{00698F}
+\definecolor{universitydark}{HTML}{003143}
+
+\setbeamercolor{normal text}{%
+  fg=universitydark,
+  bg=black!2
+}
+
+\setbeamercolor{palette primary}{%
+  use=normal text,
+  fg=normal text.bg,
+  bg=universitydark
+}
+
+\setbeamercolor{alerted text}{%
+  fg=university
+}
+
+\begin{document}
+\maketitle
+
+\section{Section1}
+
+\begin{frame}{Body}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[width=\columnwidth]{images/image-placeholder.jpg}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item Foo
+        \item Bar
+        \item Baz
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Quote}
+  \begin{Large}
+    This is the best theme ever!
+  \end{Large}
+
+  \small{Albert Einstein}
+\end{frame}
+
+\end{document}
+
