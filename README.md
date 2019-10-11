@@ -13,6 +13,8 @@ Metropolis theme with modified colors to fit the university color scheme.
 
 <img src="palette.svg" width="200px">
 
+[sequential palette](https://gka.github.io/palettes/#/9|s|e11744,e1e1e1,00a1db|ffffe0,ff005e,93003a|0|0)
+
 ## Sample
 
 ![sample](sample.png)
