@@ -2,7 +2,18 @@
 
 Metropolis theme with modified colors to fit the university color scheme.
 
-![palette](palette.svg)
+## Palette
+
+    #003143 
+    #00698F 
+    #00A1DB 
+    #E11744 
+    #A89F11 
+    #8F8707
+
+<img src="palette.svg" width="200px">
+
+## Sample
 
 ![sample](sample.png)
 
